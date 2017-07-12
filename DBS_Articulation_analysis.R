@@ -11,7 +11,7 @@ library(lme4)
 
 ## define function for correction of multiple testing
 dunn.sidak<-function(alpha,n) 1-(1-alpha)^(1/n)
-dunn.sidak(0.05, 4) ## so the new threshold for significance is 0.0127
+dunn.sidak(0.05, 5) ## so the new threshold for significance is 0.0102
 
 
 #############################################################
